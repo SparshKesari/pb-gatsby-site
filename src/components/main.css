@@ -103,7 +103,7 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   /* color: var(--clr-grey-3); */
-  color: #797e85;
+  color: #96b7f1;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -222,11 +222,15 @@ Navbar
   height: 4rem;
   display: flex;
   align-items: center;
+  border-radius: 5px;
   z-index: 200;
+  /* filter: blur(1px); */
+
   /* border: 1px; */
-  border: 3px solid;
+  border: 0.2px solid #96b7f1;
   position: fixed;
   opacity: 90%;
+  filter: grayscale(0.5) opacity(0.8);
 }
 .nav-center {
   width: 90vw;
@@ -267,9 +271,19 @@ Navbar
     margin-right: 2rem;
     right: 10px;
   }
-  .nav-links a {
+  .logo-text {
+    /* margin-left: 2rem; */
     text-transform: capitalize;
     color: #cecece;
+    font-weight: bold;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+    padding: 0.5rem 0;
+  }
+
+  .nav-links a {
+    text-transform: capitalize;
+    color: #adc3e9;
     font-weight: bold;
     letter-spacing: var(--spacing);
     transition: var(--transition);
@@ -353,7 +367,7 @@ Sidebar
 .footer {
   height: 9rem;
 
-  border-top: 2px solid;
+  border-top: 2px solid #96b7f1;
   background: #061125;
   text-align: center;
   display: grid;
