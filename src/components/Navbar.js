@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/logo.svg"
+import logo from "../assets/logo.png"
 import { FaAlignRight } from "react-icons/fa"
 import './main.css'
 
@@ -13,15 +13,14 @@ function Navbar() {
                     <button type="button" className="toggle-btn" 
                     // onClick={toggleSidebar}
                     >
-                     <FaAlignRight></FaAlignRight>
+                     <FaAlignRight /> 
                     </button>
                 </div>
-                {/* <PageLinks styleClass = "nav-links"></PageLinks> */}
                <ul className="page-links nav-links">
                 {/* <li ><a href="#">Home </a></li> */}
-                <li ><a href="/#about-us">About Us </a></li>
+                <li ><a href="/#about">About </a></li>
                 <li ><a href="/#members">Members </a></li>
-                <li ><a href="/#contact">Contact Us</a></li>
+                <li style={{marginRight:"-60px"}}><a href="/#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
