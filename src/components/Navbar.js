@@ -10,9 +10,9 @@ function Navbar() {
             <div className="nav-center">
                 <div className="nav-header">
                    <img src={logo} alt="logo"/>
-                  {/* <div className="nav-links logo-test">
+                  <div className="logo-text">
                    <a>Point Blank</a>
-                   </div> */}
+                   </div>
                     <button type="button" className="toggle-btn" 
                     // onClick={toggleSidebar}
                     >

@@ -221,7 +221,6 @@ p {
   border-radius: 5px;
   z-index: 200;
   /* filter: blur(1px); */
-
   /* border: 1px; */
   border: 0.2px solid #96b7f1;
   position: fixed;
@@ -245,7 +244,7 @@ p {
   font-size: 1.5rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: #96b7f1;
   cursor: pointer;
   transition: var(--transition);
   margin-right: 10px;
@@ -258,12 +257,11 @@ p {
   display: none;
 }
 .logo-text {
-  /* margin-left: 2rem; */
-  text-transform: capitalize;
+  margin-left: 1rem;
+  text-transform: uppercase;
   color: #cecece;
   font-weight: bold;
   letter-spacing: var(--spacing);
-  transition: var(--transition);
   padding: 0.5rem 0;
 }
 

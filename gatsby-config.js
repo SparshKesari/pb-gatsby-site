@@ -5,6 +5,22 @@
  */
 
 module.exports = {
+   siteMetadata: {
+    title: "Point Blank",
+    description: "We are POint Blank",
+    author: "@sparshkesari",
+    data : ['item1','item2']
+  },
   /* Your site config here */
-  plugins: [],
+  plugins: [    
+    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets/`,
+      },
+    }
+  ],
+  
 }
