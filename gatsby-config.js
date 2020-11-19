@@ -12,7 +12,7 @@ module.exports = {
     data : ['item1','item2']
   },
   /* Your site config here */
-  plugins: [    
+  plugins: [    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
     
     {
       resolve: `gatsby-source-filesystem`,
