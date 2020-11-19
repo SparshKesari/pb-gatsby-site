@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
+import Aboutus from '../components/Aboutus'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
 <br />
 < Hero />
 <br />
+<Aboutus />
 <br />
 
       <p>Mid Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis numquam deserunt aspernatur 
