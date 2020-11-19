@@ -37,4 +37,22 @@ export default [
     title: "app design",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
+   {
+    id: 7,
+    icon: <FaCode className="service-icon" />,
+    title: "web development",
+    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+  },
+  {
+    id: 8,
+    icon: <FaSketch className="service-icon" />,
+    title: "web design",
+    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+  },
+  {
+    id: 9,
+    icon: <FaSketch className="service-icon" />,
+    title: "web design",
+    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+  },
 ]
