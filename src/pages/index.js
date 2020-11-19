@@ -6,11 +6,7 @@ export default function Home() {
   return (
   <>
     <Layout>
-<br/><br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br />
 < Hero />
 <br />
 <br />

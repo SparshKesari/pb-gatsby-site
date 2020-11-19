@@ -2,7 +2,6 @@ import React from "react"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
-import SocialLinks from "./socialLinks"
 
 const query = graphql`
     {
@@ -27,17 +26,17 @@ function Hero() {
 
 <header>
     <div className="section-center hero-center">
-        <article className="hero-info">
-          {/* <div>
+   
+     <article className="hero-info">
+          <div>
             <div className="underline"></div>
+            <div className="info-hero">
             <h1>we are POINT BLANK</h1>
-            <h4>freelance web and mobile UI/UX Designer</h4>
-            <Link to="/contact" className="btn">
-              contact me
-            </Link>
-            <SocialLinks />
-          </div> */}
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore esse aspernatur veritatis quasi quidem modi? Accusamus consectetur corporis aliquam laudantium?</h4>
+              </div>
+          </div>
         </article>
+
         <Image fluid={fluid} className="hero-img" />
     </div>
 </header>

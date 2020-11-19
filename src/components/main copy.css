@@ -1,5 +1,12 @@
 /*
 =============== 
+Fonts
+===============
+*/
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
+
+/*
+=============== 
 Variables
 ===============
 */
@@ -388,7 +395,7 @@ Sidebar
 .section-center {
   width: 90vw;
   margin: 0 auto;
-  /* max-width: 1170px; */
+  max-width: 1170px;
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -415,10 +422,10 @@ Sidebar
   margin-left: 0;
 }
 .hero-info {
-  background: #050d1c;
+  background: var(--clr-primary-10);
 }
 .hero-img {
-  display: block;
+  display: none;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
@@ -443,39 +450,30 @@ Sidebar
   .hero-center {
     grid-template-columns: repeat(12, 1fr);
   }
+
   .hero h4 {
     font-size: 0.85rem;
   }
   .hero-info {
     grid-row: 1/1;
-    grid-column: 7/ 13;
+    grid-column: 1 / span 8;
   }
   .hero-img {
     display: block;
-    grid-row: -1/1;
-    grid-column: 1/9;
-    height: 100%;
-  }
-  .info-hero {
-    grid-template-columns: repeat(4, 1fr);
     grid-row: 1/1;
-    grid-column: 2/ 4;
+    grid-column: 6/-1;
   }
 }
-/* @media screen and (min-width: 1170px) {
-  .hero-center {
-    grid-template-columns: repeat(12, 1fr);
-  }
-
+@media screen and (min-width: 1170px) {
   .hero h4 {
     font-size: 1rem;
   }
 
   .hero-info {
-    grid-column: 7/ 13;
+    grid-column: 1 / span 8;
   }
 
   .hero h4 {
     line-height: 1;
   }
-} */
+}
