@@ -30,7 +30,9 @@ function Hero() {
      <article className="hero-info">
           <div>
             <div className="info-hero">
-            <h1>we are POINT BLANK</h1>
+            <h2>
+                {/* we are 	&lt;&nbsp;.&gt;  */}
+                POINT BLANK</h2>
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore esse aspernatur veritatis quasi quidem modi? Accusamus consectetur corporis aliquam laudantium?</h4>
               </div>
           </div>

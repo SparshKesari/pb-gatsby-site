@@ -415,7 +415,7 @@ Sidebar
   margin-left: 0;
 }
 .hero-info {
-  background: #050d1c;
+  /* background: #050d1c; */
 }
 .hero-img {
   display: block;
@@ -448,16 +448,20 @@ Sidebar
   }
   .hero-info {
     grid-row: 1/1;
-    grid-column: 7/ 13;
+    grid-column: 7/ 14;
+    z-index: 1000000;
   }
   .hero-img {
     display: block;
     grid-row: -1/1;
     grid-column: 1/9;
     height: 100%;
+    z-index: 1;
   }
   .info-hero {
+    /* z-index: 1000000; */
     grid-template-columns: repeat(4, 1fr);
+    color: green;
     grid-row: 1/1;
     grid-column: 2/ 4;
   }
