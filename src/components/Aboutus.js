@@ -1,11 +1,11 @@
 import React from "react"
-// import Title from "./Title"
+import Title from "./Title"
 import aboutusdata from "./aboutusdata"
 
 const Aboutus = () => {
   return (
     <section className="section ">
-      {/* <Title title="About Us" /> */}
+      <Title title="About Us" />
       <div className="section-center services-center">
         {aboutusdata.map(aboutus => {
           const { id, icon, title, text } = aboutus

@@ -156,6 +156,7 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+  color: var(--clr-primary-7);
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -172,6 +173,7 @@ p {
   margin-right: auto;
 }
 .section-title {
+  color: var(--clr-primary-9);
   margin-bottom: 4rem;
   text-align: center;
 }
