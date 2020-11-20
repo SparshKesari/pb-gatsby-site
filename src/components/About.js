@@ -19,7 +19,7 @@ const Jobs = () => {
           {aboutdata.map((item, index) => {
             return (
               <button
-                key={item.strapiId}
+                key={item.id}
                 onClick={() => setValue(index)}
                 className={`about-btn ${index === value && "active-btn"}`}
               >
