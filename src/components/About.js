@@ -8,7 +8,7 @@ import aboutdata from "./aboutdata"
 
 const Jobs = () => {
      const [value, setValue] = React.useState(0)
-  const { company, position, date, desc } = aboutdata[value]
+  const { name, subabout, desc } = aboutdata[value]
 
     return (
         <section className="section about">
@@ -23,16 +23,17 @@ const Jobs = () => {
                 onClick={() => setValue(index)}
                 className={`about-btn ${index === value && "active-btn"}`}
               >
-                {item.company}
+                {item.name}
               </button>
             )
           })}
         </div>
         {/* about info */}
         <article className="about-info">
-          <h3>{position}</h3>
-          <h4>{company}</h4>
-          <p className="about-date">{date}</p>
+          <h3>{name}</h3>
+          <h4>{subabout}</h4>
+          
+          {/* /// place to add more  */}
           {desc.map(item => {
             return (
               <div key={item.id} className="about-desc">

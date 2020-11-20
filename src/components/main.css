@@ -405,6 +405,9 @@ p {
   padding: 0.25rem 0;
   line-height: 1;
 }
+.about {
+  border: 1px solid hsl(185, 94%, 87%);
+}
 .about-btn:hover {
   color: #2caeba;
   box-shadow: 0 2px #2caeba;

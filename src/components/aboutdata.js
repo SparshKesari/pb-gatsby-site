@@ -1,160 +1,160 @@
-import React from "react"
 export default[
   {
       id : 1 ,
-     company: "Web Devepopment",
-        date: "1-5",
-        position: "dsfsdf",
-        desc : [ 
+     name: "Web Dev",
+        
+        subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+        desc :[ 
             {
                     id : 1,
-                    name: "desc1"
+                    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
                },
                 {
                     id : 2,
-                    name: "desc1"
+                    name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
                },
                 {
                     id : 3,
-                    name: "desc1"
-               }
-            ]
-  },
-   {
-      id : 1 ,
-     company: "Web Devepopment",
-        date: "1-5",
-        position: "dsfsdf",
-        desc : [ 
-            {
-                    id : 1,
-                    name: "desc1"
-               },
-                {
-                    id : 2,
-                    name: "desc1"
-               },
-                {
-                    id : 3,
-                    name: "desc1"
-               }
-            ]
-  }, {
-      id : 1 ,
-     company: "Web Devepopment",
-        date: "1-5",
-        position: "dsfsdf",
-        desc : [ 
-            {
-                    id : 1,
-                    name: "desc1"
-               },
-                {
-                    id : 2,
-                    name: "desc1"
-               },
-                {
-                    id : 3,
-                    name: "desc1"
-               }
-            ]
-  }, {
-      id : 1 ,
-     company: "Web Devepopment",
-        date: "1-5",
-        position: "dsfsdf",
-        desc : [ 
-            {
-                    id : 1,
-                    name: "desc1"
-               },
-                {
-                    id : 2,
-                    name: "desc1"
-               },
-                {
-                    id : 3,
-                    name: "desc1"
-               }
-            ]
-  }, {
-      id : 1 ,
-     company: "Web Devepopment",
-        date: "1-5",
-        position: "dsfsdf",
-        desc : [ 
-            {
-                    id : 1,
-                    name: "desc1"
-               },
-                {
-                    id : 2,
-                    name: "desc1"
-               },
-                {
-                    id : 3,
-                    name: "desc1"
-               }
-            ]
-  }, {
-      id : 1 ,
-     company: "Web Devepopment",
-        date: "1-5",
-        position: "dsfsdf",
-        desc : [ 
-            {
-                    id : 1,
-                    name: "desc1"
-               },
-                {
-                    id : 2,
-                    name: "desc1"
-               },
-                {
-                    id : 3,
-                    name: "desc1"
+                    name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
                }
             ]
   },
    {
       id : 2 ,
-     company: "sdfgsdfst",
-        date: "1-5",
-        position: "dsfsdf",
-        desc : [ 
+     name: "App Dev",
+        
+        subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+    desc :[ 
             {
                     id : 1,
-                    name: "dsf"
+                    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
                },
                 {
                     id : 2,
-                    name: "desc1"
+                    name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
                },
                 {
                     id : 3,
-                    name: "desc1"
+                    name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
+               }
+            ]
+  }, {
+      id : 3 ,
+     name: "IOT",
+        
+        subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+  desc :[ 
+            {
+                    id : 1,
+                    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
+               },
+                {
+                    id : 2,
+                    name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
+               },
+                {
+                    id : 3,
+                    name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
+               }
+            ]
+  }, {
+      id : 4 ,
+     name: "ML- Kaagle",
+        
+        subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+         desc :[ 
+            {
+                    id : 1,
+                    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
+               },
+                {
+                    id : 2,
+                    name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
+               },
+                {
+                    id : 3,
+                    name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
+               }
+            ]
+  }, {
+      id : 5 ,
+     name: "Hackathon",
+        
+        subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+         desc :[ 
+            {
+                    id : 1,
+                    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
+               },
+                {
+                    id : 2,
+                    name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
+               },
+                {
+                    id : 3,
+                    name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
+               }
+            ]
+  }, {
+      id : 6 ,
+     name: "Devops",
+        
+        subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+         desc :[ 
+            {
+                    id : 1,
+                    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
+               },
+                {
+                    id : 2,
+                    name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
+               },
+                {
+                    id : 3,
+                    name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
                }
             ]
   },
    {
-      strapiId : 3 ,
-     company: "Web Devepopment",
-        date: "1-5",
-        position: "dsfsdf",
-        desc :[ 
+      id : 7 ,
+     name: "Research",
+        
+        subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+         desc :[ 
             {
                     id : 1,
-                    name: "desc1"
+                    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
                },
                 {
                     id : 2,
-                    name: "desc1"
+                    name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
                },
                 {
                     id : 3,
-                    name: "desc1"
+                    name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
                }
             ]
-  }
+  },
+//    {
+//       id : 8 ,
+//      name: "Web Devepopment",
+        
+//         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
+//         desc :[ 
+//             {
+//                     id : 1,
+//                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
+//                },
+//                 {
+//                     id : 2,
+//                     name: "At sed animi quod magnam adipisci debitis provident ipsum? Totam animi repellendus voluptatum quibusdam repudiandae  ipsam architecto? Doloribus corporis nulla dignissimos rem, dolorum nostrum voluptatum? Ipsum nesciunt quaerat aut   recusandae incidunt, eligendi corporis voluptas. Natus adipisci blanditiis quasi voluptas eos, laudantium quas dolore "
+//                },
+//                 {
+//                     id : 3,
+//                     name: " repellat reprehenderit ipsum ut molestias culpa recusandae eius rem. Ullam explicabo optio accusamus expedita illo totam ad quo nobis?  Maiores, consequuntur tempore. Neque aspernatur omnis nisi possimus numquam libero! Fugit officia architecto quam? "
+//                }
+//             ]
+//   }
     
 ]
+
