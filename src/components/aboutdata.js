@@ -1,5 +1,4 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
 export default[
   {
       id : 1 ,

@@ -11,9 +11,9 @@ const Jobs = () => {
   const { company, position, date, desc } = aboutdata[value]
 
     return (
-        <section className="section jobs">
+        <section className="section about">
       <Title title="About Point Blank" />
-      <div className="jobs-center">
+      <div className="about-center">
         {/* btn container */}
         <div className="btn-container">
           {aboutdata.map((item, index) => {
@@ -21,22 +21,22 @@ const Jobs = () => {
               <button
                 key={item.strapiId}
                 onClick={() => setValue(index)}
-                className={`job-btn ${index === value && "active-btn"}`}
+                className={`about-btn ${index === value && "active-btn"}`}
               >
                 {item.company}
               </button>
             )
           })}
         </div>
-        {/* job info */}
-        <article className="job-info">
+        {/* about info */}
+        <article className="about-info">
           <h3>{position}</h3>
           <h4>{company}</h4>
-          <p className="job-date">{date}</p>
+          <p className="about-date">{date}</p>
           {desc.map(item => {
             return (
-              <div key={item.id} className="job-desc">
-                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight>
+              <div key={item.id} className="about-desc">
+                <FaAngleDoubleRight className="about-icon"></FaAngleDoubleRight>
                 <p>{item.name}</p>
               </div>
             )
